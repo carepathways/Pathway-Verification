@@ -1,6 +1,6 @@
-# Protocol Verification
+# Pathway Verification
 
-Perform a verification of protocols on XMI file. To right protocols, it is analysed if there are not deadlock or nondeterminism in the protocol.
+Perform a verification of pathways on XMI file. To right pathways, it is analysed if there are not deadlock or nondeterminism in the pathway.
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ First, you need to add a JDK:
 3. Select Standard VM > Directory... > add the JDK folder > Finish.
 4. Mark the JDK and click Apply > Apply and close.
 
-After that, you need to configure two external JARS, *protocolv3.jar* and *org.eclipse.emf.ecore-2.12.0.jar*, that are in the project.
+After that, you need to configure two external JARS, *PathwayMetamodelV5.jar* and *org.eclipse.emf.ecore-2.12.0.jar*, that are in the project.
 
 1. With the project downloaded, click right bottom in the project and select Build Path > Configute Build Path...
 2. If these JARS are in errors, remove them. Select the JAR and click Remove.
@@ -27,7 +27,7 @@ After that, you need to configure two external JARS, *protocolv3.jar* and *org.e
 
 ## Deployment
 
-The project use an Open-Source java library for constraint programming (Choco - http://www.choco-solver.org/) and dependecies of EMF to get informations of the protocols on XMI file (EMF - https://www.eclipse.org/modeling/emf/)
+The project use an Open-Source java library for constraint programming (Choco - http://www.choco-solver.org/) and dependecies of EMF to get informations of the pathways on XMI file (EMF - https://www.eclipse.org/modeling/emf/)
 
 ## Built With
 
