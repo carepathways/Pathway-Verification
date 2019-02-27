@@ -28,7 +28,7 @@ public class TableGeneration {
 	   
 			String pathwayName = pathwayFiles[i].replaceAll(".xmi", "");
 			System.out.println(i + pathwayName);
-			ArrayList<Integer> problems = new ArrayList<Integer>(){{add(35);}}; //set with defective pathways
+			ArrayList<Integer> problems = new ArrayList<Integer>(){}; //set with defective pathways
 			if(!problems.contains(i)) {
 				long beginTime = System.currentTimeMillis();
 				int deadlock = info.getDeadlockNumber();
